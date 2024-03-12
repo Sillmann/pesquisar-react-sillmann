@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.form {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.input {
+  width: 300px;
+  margin-left: 0px;
+}
+
+.itens {
+  margin-top: 48px;
+  margin-left: -308px;
+}
+
+.item {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.localizacao {
+  font-style: italic;  
+}
