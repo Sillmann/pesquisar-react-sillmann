@@ -1,34 +1,47 @@
-.main {
-  display: flex;
+.Main {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  /* display: flex;
   flex-direction: row;
   margin: 0;
-  padding: 0;
-  height: 100vh;
+  padding: 0; */
 }
 
-.form {
-  margin-top: 24px;
-  margin-left: 24px;
-}
+.busca {
+  display: flex;
+} 
 
 .input {
-  width: 300px;
-  margin-left: 0px;
+  margin-left: 12px;
+  margin-top: 12px;
+  width: 250px; 
+  /* margin-left: 0px; */
+}
+
+.button {
+  margin-left: 12px;
+  margin-top: 12px;
+  /* width: 80px;  */
+  /* margin-left: 0px; */
 }
 
 .itens {
-  margin-top: 48px;
-  margin-left: -308px;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 .item {
-  margin-top: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center;   */
 }
 
 .localizacao {
   font-style: italic;  
+  display: flex;
+  justify-content: center;   
+  margin-bottom: 12px;
 }
